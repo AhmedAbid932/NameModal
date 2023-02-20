@@ -15,6 +15,7 @@ function main() {
     } else {
       user_name.innerText = input.value;
       output.style.display = "block";
+      input.value = "";
     }
   });
 
